@@ -20,6 +20,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   font-weight: bold;
+  text-align: center;
 }
 .burger-icon span {
   display: block;
@@ -31,22 +32,35 @@ body {
 }
 .content {
   text-align: center;
-  min-height: 90vh;
+  min-height: 92vh;
   display: flex;
   flex-direction: column;
   padding: 0rem 2rem 0rem 2rem;
 }
+.titlecontent {
+  font-size: 5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .firstcontent {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 8rem;
 }
 .secondcontent {
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  gap: 9rem;
+  align-items: center;
 }
-
+.ingredients {
+  font-size: 3rem;
+}
+.buttonpdf {
+  width: 40vw;
+  height: 7vw;
+  border-radius: 20rem;
+  font-size: 2rem;
+}
 .footer {
   background-color: aqua;
   min-height: 10vh;
